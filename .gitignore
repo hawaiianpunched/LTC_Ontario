@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Cache
+.cache/
+data/ltc-cache.json
+
+# Temporary files
+*.tmp
+.temp/
+
+# Debug files
+debug-*.js
+test-*.js
+*-debug.json
+profile-page-source.html
+page-source.html
+home-links-debug.json
+scrape-progress.log
+scrape-all-output.log
